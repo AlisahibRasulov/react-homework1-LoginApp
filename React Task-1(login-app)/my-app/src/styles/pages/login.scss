@@ -1,0 +1,29 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   .login-cart{
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+    padding: 70px 30px;
+    margin: 0 auto;
+    input{
+        margin-bottom: 20px;
+        width: 200px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border-color: #fff;
+        background-color: #fff;
+    }
+    button{
+        padding: 5px 0px;
+        width: 150px;
+        margin: 0 auto;
+    }
+   }
+}
